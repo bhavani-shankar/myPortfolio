@@ -2,7 +2,7 @@ import companyLogo from "../images/metacube_logo.jpeg";
 import collegeLogo from "../images/collegeLogo.jpeg";
 import schoolLogo from "../images/schoolLogo.jpeg";
 export const Bio = {
-  name: "Bhavani Shnakar Purohit",
+  name: "Bhavani Shankar Purohit",
   roles: [
     "Frontend Developer",
     "Programmer",
