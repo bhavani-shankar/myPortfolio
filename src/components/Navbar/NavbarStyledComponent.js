@@ -5,6 +5,7 @@ import styled from 'styled-components';
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
     height: 80px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +29,10 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    width: 80%;    
+transform: rotate(-10deg);
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 8px;    
     padding: 0 6px;
     display: flex;
     justify-content: start;
@@ -102,7 +106,7 @@ export const ButtonContainer = styled.div`
   display: flex;
   justify-content: end;
   align-items: center;
-  padding: 0 6px;
+  padding: 0 10px;
   @media screen and (max-width: 768px) {
     display: none;
   }

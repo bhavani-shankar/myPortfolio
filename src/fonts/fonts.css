@@ -1,0 +1,8 @@
+/* src/assets/fonts/fonts.css */
+@font-face {
+    font-family: 'CartographCF';
+    src: url('./CartographCF-ExtraLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

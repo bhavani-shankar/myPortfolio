@@ -42,7 +42,7 @@ const Title = styled.div`
 font-size: 42px;
 text-align: center;
 font-weight: 600;
-margin-top: 20px;
+margin-top: -25px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
       margin-top: 12px;
@@ -80,7 +80,7 @@ const index = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    My work experience as a software engineer and working on different companies and projects.
+                Experienced Software Engineer with a proven track record of delivering high-quality solutions across multiple companies.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
