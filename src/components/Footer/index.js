@@ -1,9 +1,12 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import X from "@mui/icons-material/X"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import GmailIcon from '@mui/icons-material/Mail';
+import InstagramIcon  from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
+import { GitHub, Instagram } from '@mui/icons-material';
+import { Icon } from '@mui/material';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -26,6 +29,8 @@ const FooterWrapper = styled.footer`
 `;
 
 const Logo = styled.h1`
+  text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.7);
+  font-family: CartographCF;
   font-weight: 600;
   font-size: 20px;
   color: ${({ theme }) => theme.primary};
@@ -88,18 +93,13 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Bhavani Shankar Purohit</Logo>
-        <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-        </Nav>
+      <Logo>Bhavani Shankar Purohit</Logo>
+        
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.twitter} target="display"><X /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.mail} target="display"><GmailIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>

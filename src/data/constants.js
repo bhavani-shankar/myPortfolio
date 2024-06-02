@@ -16,6 +16,7 @@ export const Bio = {
   twitter: "#",
   insta: "#",
   facebook: "#",
+  mail: "mailto:bhavani.shankar037@gmail.com",
 };
 
 export const skills = [
@@ -92,8 +93,8 @@ export const skills = [
   //     {
   //       name: "Postgresql",
   //       image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-  //     },
-  //     {
+      //     },
+    //     {
   //       name: "MongoDB",
   //       image:
   //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
@@ -115,10 +116,10 @@ export const skills = [
       },
       {
         name: "GitHub",
-        image:
+                image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      // {
+// {
       //   name: "Docker",
       //   image:
       //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
@@ -138,7 +139,7 @@ export const skills = [
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
       },
-      // {
+// {
       //   name: "Adobe XD",
       //   image:
       //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
@@ -160,6 +161,24 @@ export const experiences = [
     company: "Metacube Software pvt. Ltd.",
     date: "Oct 2021 - Present",
     desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript"
+    ],
+  },
+  {
+    id: 1,
+    img: companyLogo,
+    role: "Software Engineer Trainee",
+    company: "Metacube Software pvt. Ltd.",
+    date: "Oct 2021 - Jun 2022",
+    desc: "During my tenure as an Frontend developer at Via Metacube, a leading financial firm based in the USA, I leveraged React technology to design and implement web app.",
     skills: [
       "ReactJS",
       "Redux",

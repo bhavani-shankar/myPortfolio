@@ -93,13 +93,17 @@ export const HeroRightContainer = styled.div`
 `;
 
 export const Img = styled.img`
+  box-shadow: 8px 8px 20px rgba(133, 76, 190, 0.4);
+  background-color: rgba(147, 118, 153, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   position: relative;
   width: 100%;
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border-radius: 20%;
+  border: 1px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -113,6 +117,7 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.div`
+  // font-family: CartographCF;
   font-weight: 700;
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
@@ -150,11 +155,16 @@ export const Span = styled.span`
   cursor: pointer;
 `;
 
+export const SpanFont = styled.span`
+  font-family: CartographCF;
+`;
+
 export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
+  text-align: justify;
 
   @media (max-width: 960px) {
     text-align: center;
@@ -164,6 +174,16 @@ export const SubTitle = styled.div`
     font-size: 16px;
     line-height: 32px;
   }
+`;
+
+export const SubTitleParagraph = styled.p`
+  margin: 0;
+  text-align: justify;
+`;
+
+export const Prit = styled.p`
+  display: flex;\
+  gap: 10px;
 `;
 
 export const ResumeButton = styled.a`
@@ -196,6 +216,7 @@ export const ResumeButton = styled.a`
     
     
     @media (max-width: 640px) {
+        min-width: 300px;
         padding: 12px 0;
         font-size: 18px;
     } 
