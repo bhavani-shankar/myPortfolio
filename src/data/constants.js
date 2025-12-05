@@ -11,12 +11,12 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, consistently seeking fresh opportunities. Driven by a love for acquiring knowledge, I am committed to producing top-notch outcomes. Possessing a optimistic outlook and embracing a mindset of continuous growth, I am prepared to make a significant impact and accomplish remarkable achievements.",
   github: "https://github.com/bhavani-shankar",
   resume:
-    "https://drive.google.com/file/d/1Bf8hPUA9vexGLmgo4U6Hv7N6xNSdwWo_/view?usp=drive_link",
+    "https://drive.google.com/file/d/1DmFc2qRvtAnvP9QrpgbMwe4TTZY7MMKC/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/bhavani-shankar-purohit-70a041181/",
   twitter: "#",
   insta: "#",
   facebook: "#",
-  mail: "mailto:bhavani.shankar037@gmail.com",
+  mail: "mailto:bhavani.shankar.connect@gmail.com",
 };
 
 export const skills = [
